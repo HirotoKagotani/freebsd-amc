@@ -1,0 +1,4 @@
+%%TEXMFLOCALDIR%%/jlisting/jlisting.sty
+@dirrm %%TEXMFLOCALDIR%%/jlisting
+@exec %%MKTEXLSR%%
+@unexec %%MKTEXLSR%%
