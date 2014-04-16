@@ -10,7 +10,7 @@ EXTRACT_SUFX=	.bz2
 MAINTAINER=	hiroto.kagotani@gmail.com
 COMMENT=	Enhancement of lstlisting environment for handling Japanese text
 
-USE_TEX=	texhash
+USE_TEX=	base texhash
 PLIST_SUB=	TEXMFLOCALDIR=${TEXMFLOCALDIR} MKTEXLSR=${MKTEXLSR}
 
 MKTEXLSR=	${LOCALBASE}/bin/mktexlsr
