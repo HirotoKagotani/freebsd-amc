@@ -34,6 +34,8 @@ MANLANG=	"" fr ja
 USE_TEX=	texhash
 USES+=		gmake gettext iconv:build perl5 shared-mime-info
 
+MKTEXLSR=       ${LOCALBASE}/bin/mktexlsr
+
 .include <bsd.port.pre.mk>
 
 .if !empty(TEX_DEFAULT:U:MTETEX)
@@ -62,5 +64,6 @@ pre-install:
 
 post-install:
 	@${CAT} ${PKGMESSAGE}
+	@${MKTEXLSR}
 
 .include <bsd.port.post.mk>
