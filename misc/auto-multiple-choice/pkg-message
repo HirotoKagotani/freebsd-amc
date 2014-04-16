@@ -1,0 +1,19 @@
+======================================================================
+Auto Multiple Choice uses some optional helper software to view and/or
+edit various file formats such as PDF, Image, CSV, TeX, etc.
+You may want to install software from the following command list or
+specify your favorite one in the GUI preference menu.
+  PDF viewer: evince, acroread, gpdf, okular, xpdf.
+  Image viewer: eog, ristretto, gpicview, mirage, gwenview.
+  ODS viewer: libreoffice, localc, oocalc.
+  XML viewer: gedit, kedit, kwrite, mousepad, leafpad.
+  TeX editor: texmaker, kile, gummi, emacs, gedit, kedit, kwrite, mousepad,
+              leafpad.
+  Text editor: gedit, kedit, kwrite, mousepad, emacs, leafpad.
+  Web browser: sensible-browser, firefox, galeon, konqueror, dillo, chromium.
+  File manager: nautilus, pcmanfm, Thunar, konqueror, dolphin.
+
+Note to Japanese users:
+Auto Multiple Choice does not work with platex based on teTeX distribution.
+Please install platex/uplatex based on TeXLive distribution instead.
+======================================================================

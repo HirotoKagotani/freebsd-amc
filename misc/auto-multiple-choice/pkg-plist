@@ -1,0 +1,267 @@
+bin/auto-multiple-choice
+lib/AMC/exec/AMC-detect
+lib/AMC/exec/AMC-traitement-image
+lib/AMC/perl/AMC-analyse.pl
+lib/AMC/perl/AMC-annote.pl
+lib/AMC/perl/AMC-association-auto.pl
+lib/AMC/perl/AMC-association.pl
+lib/AMC/perl/AMC-export.pl
+lib/AMC/perl/AMC-getimages.pl
+lib/AMC/perl/AMC-gui-apropos.glade
+lib/AMC/perl/AMC-gui-choix_pages_impression.glade
+lib/AMC/perl/AMC-gui-choix_postcorrect.glade
+lib/AMC/perl/AMC-gui-choix_projet.glade
+lib/AMC/perl/AMC-gui-choose-mode.glade
+lib/AMC/perl/AMC-gui-choose_columns.glade
+lib/AMC/perl/AMC-gui-choose_students.glade
+lib/AMC/perl/AMC-gui-cleanup.glade
+lib/AMC/perl/AMC-gui-edit_preferences.glade
+lib/AMC/perl/AMC-gui-filter_details.glade
+lib/AMC/perl/AMC-gui-liste_dialog.glade
+lib/AMC/perl/AMC-gui-mailing.glade
+lib/AMC/perl/AMC-gui-main_window.glade
+lib/AMC/perl/AMC-gui-make_template.glade
+lib/AMC/perl/AMC-gui-saisie_auto.glade
+lib/AMC/perl/AMC-gui-source_latex_choix.glade
+lib/AMC/perl/AMC-gui-source_latex_choix_zip.glade
+lib/AMC/perl/AMC-gui-source_latex_dialog.glade
+lib/AMC/perl/AMC-gui-source_latex_modele.glade
+lib/AMC/perl/AMC-gui-unrecognized.glade
+lib/AMC/perl/AMC-gui.pl
+lib/AMC/perl/AMC-imprime.pl
+lib/AMC/perl/AMC-latex-link.pl
+lib/AMC/perl/AMC-mailing.pl
+lib/AMC/perl/AMC-manuel.pl
+lib/AMC/perl/AMC-meptex.pl
+lib/AMC/perl/AMC-note.pl
+lib/AMC/perl/AMC-prepare.pl
+lib/AMC/perl/AMC-regroupe.pl
+man/fr/man1/auto-multiple-choice.1.gz
+man/ja/man1/AMC-analyse.1.gz
+man/ja/man1/AMC-annote.1.gz
+man/ja/man1/AMC-association-auto.1.gz
+man/ja/man1/AMC-association.1.gz
+man/ja/man1/AMC-export.1.gz
+man/ja/man1/AMC-getimages.1.gz
+man/ja/man1/AMC-imprime.1.gz
+man/ja/man1/AMC-mailing.1.gz
+man/ja/man1/AMC-meptex.1.gz
+man/ja/man1/AMC-note.1.gz
+man/ja/man1/AMC-prepare.1.gz
+man/ja/man1/AMC-regroupe.1.gz
+man/ja/man1/auto-multiple-choice.1.gz
+man/man1/AMC-analyse.1.gz
+man/man1/AMC-annote.1.gz
+man/man1/AMC-association-auto.1.gz
+man/man1/AMC-association.1.gz
+man/man1/AMC-export.1.gz
+man/man1/AMC-getimages.1.gz
+man/man1/AMC-imprime.1.gz
+man/man1/AMC-mailing.1.gz
+man/man1/AMC-meptex.1.gz
+man/man1/AMC-note.1.gz
+man/man1/AMC-prepare.1.gz
+man/man1/AMC-regroupe.1.gz
+man/man1/auto-multiple-choice.1.gz
+share/applications/auto-multiple-choice.desktop
+%%DATADIR%%/icons/amc-annotate.svg
+%%DATADIR%%/icons/amc-auto-assoc.svg
+%%DATADIR%%/icons/amc-auto-capture.svg
+%%DATADIR%%/icons/amc-group.svg
+%%DATADIR%%/icons/amc-manual-assoc.svg
+%%DATADIR%%/icons/amc-manual-capture.svg
+%%DATADIR%%/icons/amc-mark.svg
+%%DATADIR%%/icons/amc-send.svg
+%%DATADIR%%/icons/auto-multiple-choice.svg
+%%DATADIR%%/models/ar/directory.xml
+%%DATADIR%%/models/ar/groups.tgz
+%%DATADIR%%/models/ar/scoring.tgz
+%%DATADIR%%/models/ar/separate.tgz
+%%DATADIR%%/models/ar/simple.tgz
+%%DATADIR%%/models/en/directory.xml
+%%DATADIR%%/models/en/groups.tgz
+%%DATADIR%%/models/en/scoring.tgz
+%%DATADIR%%/models/en/separate.tgz
+%%DATADIR%%/models/en/simple-txt.tgz
+%%DATADIR%%/models/en/simple.tgz
+%%DATADIR%%/models/fr/bareme.tgz
+%%DATADIR%%/models/fr/directory.xml
+%%DATADIR%%/models/fr/ensemble.tgz
+%%DATADIR%%/models/fr/groupes.tgz
+%%DATADIR%%/models/fr/simple-txt.tgz
+%%DATADIR%%/models/fr/simple.tgz
+%%DATADIR%%/models/ja/groups.tgz
+%%DATADIR%%/models/ja/scoring.tgz
+%%DATADIR%%/models/ja/separate.tgz
+%%DATADIR%%/models/ja/simple-txt.tgz
+%%DATADIR%%/models/ja/simple.tgz
+%%DATADIR%%/models/ja/directory.xml
+%%DOCSDIR%%/auto-multiple-choice.en.pdf
+%%DOCSDIR%%/auto-multiple-choice.en.xml
+%%DOCSDIR%%/auto-multiple-choice.fr.pdf
+%%DOCSDIR%%/auto-multiple-choice.fr.xml
+%%DOCSDIR%%/auto-multiple-choice.ja.pdf
+%%DOCSDIR%%/auto-multiple-choice.ja.xml
+%%DOCSDIR%%/html/auto-multiple-choice.en/AMC-TXT.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/AMC-analyse.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/AMC-annote.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/AMC-association.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/AMC-association-auto.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/AMC-export.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/AMC-imprime.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/AMC-note.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/AMC-prepare.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/AMC-regroupe.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/ar01s07.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/auto-multiple-choice.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/commands.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/flag.svg
+%%DOCSDIR%%/html/auto-multiple-choice.en/graphical-interface.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/index.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/latex.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/prerequis.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/re03.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/re05.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/re13.html
+%%DOCSDIR%%/html/auto-multiple-choice.en/usagenotes.html
+%%DOCSDIR%%/html/auto-multiple-choice.fr/AMC-TXT.html
+%%DOCSDIR%%/html/auto-multiple-choice.fr/ar01s07.html
+%%DOCSDIR%%/html/auto-multiple-choice.fr/auto-multiple-choice.html
+%%DOCSDIR%%/html/auto-multiple-choice.fr/commandes.html
+%%DOCSDIR%%/html/auto-multiple-choice.fr/flag.svg
+%%DOCSDIR%%/html/auto-multiple-choice.fr/index.html
+%%DOCSDIR%%/html/auto-multiple-choice.fr/interface-graphique.html
+%%DOCSDIR%%/html/auto-multiple-choice.fr/latex.html
+%%DOCSDIR%%/html/auto-multiple-choice.fr/notesutilisation.html
+%%DOCSDIR%%/html/auto-multiple-choice.fr/prerequis.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/AMC-TXT.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/AMC-analyse.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/AMC-annote.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/AMC-association.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/AMC-association-auto.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/AMC-export.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/AMC-imprime.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/AMC-note.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/AMC-prepare.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/AMC-regroupe.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/ar01s07.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/auto-multiple-choice.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/commands.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/flag.svg
+%%DOCSDIR%%/html/auto-multiple-choice.ja/graphical-interface.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/index.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/ix01.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/latex.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/prerequis.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/re03.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/re05.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/re13.html
+%%DOCSDIR%%/html/auto-multiple-choice.ja/usagenotes.html
+%%DOCSDIR%%/html/images/callouts/1.png
+%%DOCSDIR%%/html/images/callouts/10.png
+%%DOCSDIR%%/html/images/callouts/11.png
+%%DOCSDIR%%/html/images/callouts/12.png
+%%DOCSDIR%%/html/images/callouts/13.png
+%%DOCSDIR%%/html/images/callouts/14.png
+%%DOCSDIR%%/html/images/callouts/15.png
+%%DOCSDIR%%/html/images/callouts/2.png
+%%DOCSDIR%%/html/images/callouts/3.png
+%%DOCSDIR%%/html/images/callouts/4.png
+%%DOCSDIR%%/html/images/callouts/5.png
+%%DOCSDIR%%/html/images/callouts/6.png
+%%DOCSDIR%%/html/images/callouts/7.png
+%%DOCSDIR%%/html/images/callouts/8.png
+%%DOCSDIR%%/html/images/callouts/9.png
+%%DOCSDIR%%/html/images/important.png
+%%DOCSDIR%%/html/images/note.png
+%%DOCSDIR%%/html/images/warning.png
+%%DOCSDIR%%/html/index.html
+%%DOCSDIR%%/html/style.css
+share/locale/ar/LC_MESSAGES/auto-multiple-choice.mo
+share/locale/es/LC_MESSAGES/auto-multiple-choice.mo
+share/locale/fr/LC_MESSAGES/auto-multiple-choice.mo
+share/locale/ja/LC_MESSAGES/auto-multiple-choice.mo
+%%SITE_PERL%%/AMC/Basic.pm
+%%SITE_PERL%%/AMC/Boite.pm
+%%SITE_PERL%%/AMC/Calage.pm
+%%SITE_PERL%%/AMC/Data.pm
+%%SITE_PERL%%/AMC/DataModule.pm
+%%SITE_PERL%%/AMC/DataModule/association.pm
+%%SITE_PERL%%/AMC/DataModule/capture.pm
+%%SITE_PERL%%/AMC/DataModule/layout.pm
+%%SITE_PERL%%/AMC/DataModule/report.pm
+%%SITE_PERL%%/AMC/DataModule/scoring.pm
+%%SITE_PERL%%/AMC/Exec.pm
+%%SITE_PERL%%/AMC/Export.pm
+%%SITE_PERL%%/AMC/Export/CSV.pm
+%%SITE_PERL%%/AMC/Export/List.pm
+%%SITE_PERL%%/AMC/Export/ods.pm
+%%SITE_PERL%%/AMC/Export/register.pm
+%%SITE_PERL%%/AMC/Export/register/CSV.pm
+%%SITE_PERL%%/AMC/Export/register/List.pm
+%%SITE_PERL%%/AMC/Export/register/ods.pm
+%%SITE_PERL%%/AMC/FileMonitor.pm
+%%SITE_PERL%%/AMC/Filter.pm
+%%SITE_PERL%%/AMC/Filter/latex.pm
+%%SITE_PERL%%/AMC/Filter/plain.pm
+%%SITE_PERL%%/AMC/Filter/register.pm
+%%SITE_PERL%%/AMC/Filter/register/latex.pm
+%%SITE_PERL%%/AMC/Filter/register/plain.pm
+%%SITE_PERL%%/AMC/Gui/Association.glade
+%%SITE_PERL%%/AMC/Gui/Association.pm
+%%SITE_PERL%%/AMC/Gui/Avancement.pm
+%%SITE_PERL%%/AMC/Gui/Commande.pm
+%%SITE_PERL%%/AMC/Gui/Manuel.glade
+%%SITE_PERL%%/AMC/Gui/Manuel.pm
+%%SITE_PERL%%/AMC/Gui/Notes.glade
+%%SITE_PERL%%/AMC/Gui/Notes.pm
+%%SITE_PERL%%/AMC/Gui/PageArea.pm
+%%SITE_PERL%%/AMC/Gui/WindowSize.pm
+%%SITE_PERL%%/AMC/Gui/Zooms.glade
+%%SITE_PERL%%/AMC/Gui/Zooms.pm
+%%SITE_PERL%%/AMC/Image.pm
+%%SITE_PERL%%/AMC/Messages.pm
+%%SITE_PERL%%/AMC/NamesFile.pm
+%%SITE_PERL%%/AMC/Queue.pm
+%%SITE_PERL%%/AMC/Scoring.pm
+%%SITE_PERL%%/AMC/ScoringEnv.pm
+%%SITE_PERL%%/AMC/State.pm
+%%SITE_PERL%%/AMC/Substitute.pm
+share/pixmaps/auto-multiple-choice.xpm
+share/texmf-local/doc/latex/AMC/automultiplechoice.pdf
+share/texmf-local/doc/latex/AMC/questions.tex
+share/texmf-local/doc/latex/AMC/sample-amc.pdf
+share/texmf-local/doc/latex/AMC/sample-amc.tex
+share/texmf-local/doc/latex/AMC/sample-plain.pdf
+share/texmf-local/doc/latex/AMC/sample-plain.tex
+share/texmf-local/doc/latex/AMC/sample-separate.pdf
+share/texmf-local/doc/latex/AMC/sample-separate.tex
+share/texmf-local/tex/latex/AMC/automultiplechoice.sty
+share/mime/packages/auto-multiple-choice.xml
+share/gtksourceview-2.0/language-specs/amc-txt.lang
+@dirrm lib/AMC/exec
+@dirrm lib/AMC/perl
+@dirrm lib/AMC
+@dirrm %%SITE_PERL%%/AMC/DataModule
+@dirrm %%SITE_PERL%%/AMC/Export/register
+@dirrm %%SITE_PERL%%/AMC/Export
+@dirrm %%SITE_PERL%%/AMC/Filter/register
+@dirrm %%SITE_PERL%%/AMC/Filter
+@dirrm %%SITE_PERL%%/AMC/Gui
+@dirrm %%SITE_PERL%%/AMC
+@dirrm %%DATADIR%%/icons
+@dirrm %%DATADIR%%/models/ar
+@dirrm %%DATADIR%%/models/en
+@dirrm %%DATADIR%%/models/fr
+@dirrm %%DATADIR%%/models/ja
+@dirrm %%DATADIR%%/models
+@dirrm %%DATADIR%%
+@dirrm %%DOCSDIR%%/html/auto-multiple-choice.en
+@dirrm %%DOCSDIR%%/html/auto-multiple-choice.fr
+@dirrm %%DOCSDIR%%/html/auto-multiple-choice.ja
+@dirrm %%DOCSDIR%%/html/images/callouts
+@dirrm %%DOCSDIR%%/html/images
+@dirrm %%DOCSDIR%%/html
+@dirrm %%DOCSDIR%%
+@dirrm share/texmf-local/doc/latex/AMC
+@dirrm share/texmf-local/tex/latex/AMC
