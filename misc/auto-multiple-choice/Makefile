@@ -34,7 +34,7 @@ MANLANG=	"" fr ja
 USE_TEX=	texhash
 USES+=		gmake gettext iconv:build perl5 shared-mime-info
 
-MKTEXLSR=       ${LOCALBASE}/bin/mktexlsr
+MKTEXLSR=	${LOCALBASE}/bin/mktexlsr
 
 .include <bsd.port.pre.mk>
 
