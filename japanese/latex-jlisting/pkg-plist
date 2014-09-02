@@ -1,4 +1,5 @@
-%%TEXMFLOCALDIR%%/jlisting/jlisting.sty
-@dirrm %%TEXMFLOCALDIR%%/jlisting
-@exec %%MKTEXLSR%%
-@unexec %%MKTEXLSR%%
+%%TEXMFLOCALDIR%%/tex/latex/jlisting/jlisting.sty
+@dirrm %%TEXMFLOCALDIR%%/tex/latex/jlisting
+@dirrmtry %%TEXMFLOCALDIR%%/tex/latex
+@dirrmtry %%TEXMFLOCALDIR%%/tex
+@dirrmtry %%TEXMFLOCALDIR%%

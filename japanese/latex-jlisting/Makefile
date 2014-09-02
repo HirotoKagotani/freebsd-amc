@@ -22,7 +22,7 @@ do-extract:
 	cd ${DISTDIR}/${DIST_SUBDIR} && ${BZCAT} ${DISTFILES} >${WRKSRC}/${DISTNAME}
 
 do-install:
-	${MKDIR} ${STAGEDIR}${PREFIX}/${TEXMFLOCALDIR}/jlisting
-	${INSTALL_DATA} ${WRKSRC}/${DISTNAME} ${STAGEDIR}${PREFIX}/${TEXMFLOCALDIR}/jlisting
+	${MKDIR} ${STAGEDIR}${PREFIX}/${TEXMFLOCALDIR}/tex/latex/jlisting
+	${INSTALL_DATA} ${WRKSRC}/${DISTNAME} ${STAGEDIR}${PREFIX}/${TEXMFLOCALDIR}/tex/latex/jlisting
 
 .include <bsd.port.mk>
