@@ -31,7 +31,7 @@ LANG_GTKSOURCEVIEW_DIR=	${PREFIX}/share/gtksourceview-2.0/language-specs
 
 MANLANG=	"" fr ja
 
-USE_TEX=	texhash
+USE_TEX=	latex texhash
 USES+=		gmake gettext iconv:build perl5 shared-mime-info
 
 MKTEXLSR=	${LOCALBASE}/bin/mktexlsr
@@ -64,6 +64,5 @@ pre-install:
 
 post-install:
 	@${CAT} ${PKGMESSAGE}
-	@${MKTEXLSR}
 
 .include <bsd.port.post.mk>
