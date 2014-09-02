@@ -10,7 +10,8 @@ EXTRACT_SUFX=	.bz2
 MAINTAINER=	hiroto.kagotani@gmail.com
 COMMENT=	Enhancement of lstlisting environment for handling Japanese text
 
-USE_TEX=	base texhash
+NO_BUILD=	yes
+USE_TEX=	latex texhash
 PLIST_SUB=	TEXMFLOCALDIR=${TEXMFLOCALDIR} MKTEXLSR=${MKTEXLSR}
 
 MKTEXLSR=	${LOCALBASE}/bin/mktexlsr
@@ -20,13 +21,8 @@ do-extract:
 	${MKDIR} ${WRKSRC}
 	cd ${DISTDIR}/${DIST_SUBDIR} && ${BZCAT} ${DISTFILES} >${WRKSRC}/${DISTNAME}
 
-do-build:
-
 do-install:
 	${MKDIR} ${STAGEDIR}${PREFIX}/${TEXMFLOCALDIR}/jlisting
 	${INSTALL_DATA} ${WRKSRC}/${DISTNAME} ${STAGEDIR}${PREFIX}/${TEXMFLOCALDIR}/jlisting
-
-post-install:
-	@${MKTEXLSR}
 
 .include <bsd.port.mk>
